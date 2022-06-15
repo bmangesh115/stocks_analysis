@@ -27,7 +27,7 @@ Following tables show annual return of stocks for years 2017 and 2018. In 2017 m
 The original code is written without arrays while refactored code is written with arrays. In the original code calculation and output are looped in same “For” and “If” loops. In the refactored code with arrays calculation and output are in separate loops. After refactoring the time efficiency of the code is improved ~20-40%.<br>   
 The links to the codes.<br>
 [Code before refactor](/Resources/all_stocks_analysis_before_refactor.vbs)<br>
-[Code after refactor](/Resources/vbs_challenge.vbs)<br>
+[Code after refactor](/Resources/vba_challenge.vbs)<br>
 
 
 <figure>
