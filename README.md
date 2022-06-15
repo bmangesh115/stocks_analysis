@@ -7,50 +7,56 @@ Analysis of past performance of stocks with VBA code to select appropriate stock
 ## Results
 
 ### Stocks performance
-Following tables show annual return of stocks for years 2017 and 2018. In 2017 majority of stocks has positive return while in 2018 majority of stocks has negative return. Two stocks ENPH and RUN delivered positive return in both years. The ENPH stock delivered >75% return in both years and it has high trading volume in both years showing interest of investors in the stock. The ENPH stock is a good pick for consistent positive return based on past performance.
+Following tables show annual return of stocks for years 2017 and 2018. In 2017 majority of stocks has positive return while in 2018 majority of stocks has negative return. Two stocks ENPH and RUN delivered positive return in both years. The ENPH stock delivered >75% return in both years and it has high trading volume in both years showing interest of investors in the stock. The ENPH stock is a good pick for consistent positive return based on past performance. <br>
 
 <figure>
-    <img src="/Resources/stocks_performacne_2017.png" width="200" height="600"
-         alt="Stocks Performance 2017">
     <figcaption>Stocks Performance 2017</figcaption>
-</figure>
+    <img src="/Resources/stocks_performance_2017.png" width="400" height="475"
+         alt="Stocks Performance 2017">
+</figure> <br>
 
 <figure>
-    <img src="/Resources/stocks_performacne_2018.png" width="200" height="600"
-         alt="Stocks Performance 2018">
     <figcaption>Stocks Performance 2018</figcaption>
-</figure>
+    <img src="/Resources/stocks_performance_2018.png" width="400" height="475"
+         alt="Stocks Performance 2018">
+</figure> <br>
+
 
 ### Performance of the code before and after refactoring
 
-The original code is written without arrays while refactored code is written with arrays. In the original code calculation and output are looped in same “For” and “If” loops. In the refactored code with arrays calculation and output are in separate loops. After refactoring the time efficiency of the code is improved ~20-40%.---
-The links to the codes.---
-[Code before refactoring](/Resources/all_stocks_analysis_before_refactor.vbs)---
-[Code after refactoring](/Resources/vbs_challenge.vbs)---
+The original code is written without arrays while refactored code is written with arrays. In the original code calculation and output are looped in same “For” and “If” loops. In the refactored code with arrays calculation and output are in separate loops. After refactoring the time efficiency of the code is improved ~20-40%.<br>   
+The links to the codes.<br>
+[Code before refactor](/Resources/all_stocks_analysis_before_refactor.vbs)<br>
+[Code after refactor](/Resources/vbs_challenge.vbs)<br>
+
 
 <figure>
-    <img src="/Resources/run_time_green_stocks_before_refactor_2017.png" width="600" height="100"
-         alt="Code Run Time Before Refactor 2017">
     <figcaption>Code Run Time Before Refactor 2017</figcaption>
+    <img src="/Resources/run_time_green_stocks_before-refactor_2017.png" width="1500" height="500"
+         alt="Code Run Time Before Refactor 2017">
 </figure>
 
+
 <figure>
-    <img src="/Resources/vba_challenge_2017.png" width="600" height="100"
-         alt="Code Run Time After Refactor 2017">
     <figcaption>Code Run Time After Refactor 2017</figcaption>
+    <img src="/Resources/vba_challenge_2017.png" width="1500" height="500"
+         alt="Code Run Time After Refactor 2017">
 </figure>
 
+
 <figure>
-    <img src="/Resources/run_time_green_stocks_before_refactor_2018.png" width="600" height="100"
-         alt="Code Run Time Before Refactor 2018">
     <figcaption>Code Run Time Before Refactor 2018</figcaption>
+    <img src="/Resources/run_time_green_stocks_before_refactor_2018.png" width="1500" height="500"
+         alt="Code Run Time Before Refactor 2018">
 </figure>
 
+
 <figure>
-    <img src="/Resources/vba_challenge_2018.png" width="600" height="100"
-         alt="Code Run Time After Refactor 2018">
     <figcaption>Code Run Time After Refactor 2018</figcaption>
+    <img src="/Resources/vba_challenge_2018.png" width="1500" height="500"
+         alt="Code Run Time After Refactor 2018">
 </figure>
+
 
 ## Summary
 
